@@ -30,3 +30,5 @@ Cada tela tem um endereço próprio pelo fragmento da URL e permite voltar e ava
 Cada campo dos formulários possui uma estrela para favoritar ou desfavoritar. Na tela Hoje, selecione uma responsabilidade para consultar seus campos favoritos e valores logo abaixo dos ícones. O primeiro clique em uma responsabilidade mostra os favoritos; outro clique na mesma responsabilidade abre a tela de formulários, onde é possível criar e editar formulários. Os favoritos são salvos neste navegador e preservados ao editar o formulário.
 
 A exclusão de responsabilidades pede confirmação dentro da própria tela, com opções para cancelar ou confirmar. Ao excluir, os favoritos e vencimentos relacionados são atualizados.
+
+Campos de texto e texto longo permitem adicionar uma data opcional vinculada. Datas preenchidas aparecem no calendário, nos avisos de vencimento e junto aos favoritos. Ao remover a data, ela deixa de aparecer nesses locais.
