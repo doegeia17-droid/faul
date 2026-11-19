@@ -95,3 +95,5 @@ header.app-header{max-width:1060px;height:auto;margin:0 auto;padding:16px 30px;d
 .responsibility-favorites h3{margin:0 0 16px}.responsibility-favorites h4{margin:18px 0 10px;color:#416b4e}
 .favorite-values{margin:0}.favorite-values dt{font-size:12px;color:#7b8179;margin-top:12px}
 .favorite-values dd{margin:4px 0 14px;white-space:pre-wrap;overflow-wrap:anywhere}
+
+.calfilter{display:grid;gap:6px;max-width:320px;margin-top:16px}.calfilter label{font-weight:600}.calfilter select{width:100%;min-width:0}
