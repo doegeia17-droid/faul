@@ -18,7 +18,7 @@ Ao publicar ou copiar a aplicação, mantenha `index.html`, `app.js` e `styles.c
 
 ## Telas
 
-- Hoje: responsabilidades, consulta de pendentes com acesso à Pauta e quadro de títulos das notas.
+- Home: responsabilidades, consulta de pendentes com acesso à Pauta e quadro de títulos das notas.
 - Pauta: inclusão, conclusão e exclusão dos itens do dia.
 - Notas: criação, edição e exclusão de notas com título e conteúdo. Anotações antigas são importadas automaticamente no primeiro acesso.
 - Calendário: vencimentos das responsabilidades.
@@ -27,7 +27,7 @@ Cada tela tem um endereço próprio pelo fragmento da URL e permite voltar e ava
 
 ## Campos favoritos
 
-Cada campo dos formulários possui uma estrela para favoritar ou desfavoritar. Na tela Hoje, selecione uma responsabilidade para consultar seus campos favoritos e valores logo abaixo dos ícones. O primeiro clique em uma responsabilidade mostra os favoritos; outro clique na mesma responsabilidade abre a tela de formulários, onde é possível criar e editar formulários. Os favoritos são salvos neste navegador e preservados ao editar o formulário.
+Cada campo dos formulários possui uma estrela para favoritar ou desfavoritar. Na tela Home, selecione uma responsabilidade para consultar seus campos favoritos e valores logo abaixo dos ícones. O primeiro clique em uma responsabilidade mostra os favoritos; outro clique na mesma responsabilidade abre a tela de formulários, onde é possível criar e editar formulários. Os favoritos são salvos neste navegador e preservados ao editar o formulário.
 
 A exclusão de responsabilidades pede confirmação dentro da própria tela, com opções para cancelar ou confirmar. Ao excluir, os favoritos e vencimentos relacionados são atualizados.
 

@@ -25,7 +25,7 @@ oldNote.remove();
 home.querySelector('.grid').remove();
 home.querySelector('.sectionlabel').remove();
 home.querySelector('.future').remove();
-const homeTitle = make('h1', 'screen-title', 'Hoje');
+const homeTitle = make('h1', 'screen-title', 'Home');
 homeTitle.tabIndex = -1;
 home.prepend(homeTitle);
 const summaries = make('div', 'home-summaries');
@@ -147,7 +147,7 @@ function showPage(focus = true) {
     if (active) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
     link.onclick = null;
   });
-  document.title = (id === 'inicio' ? 'Hoje' : id === 'pauta' ? 'Pauta' : id === 'notas' ? 'Notas' : 'Calendário') + ' — Dia';
+  document.title = (id === 'inicio' ? 'Home' : id === 'pauta' ? 'Pauta' : id === 'notas' ? 'Notas' : 'Calendário') + ' — Dia';
   if (id === 'calendario') window.refreshCalendar();
   if (focus) { window.scrollTo(0, 0); screens.find(page => page.id === id).querySelector('h1')?.focus({ preventScroll: true }); }
 }
