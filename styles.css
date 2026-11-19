@@ -96,4 +96,49 @@ header.app-header{max-width:1060px;height:auto;margin:0 auto;padding:16px 30px;d
 .favorite-values{margin:0}.favorite-values dt{font-size:12px;color:#7b8179;margin-top:12px}
 .favorite-values dd{margin:4px 0 14px;white-space:pre-wrap;overflow-wrap:anywhere}
 
-.calfilter{display:grid;gap:6px;max-width:320px;margin-top:16px}.calfilter label{font-weight:600}.calfilter select{width:100%;min-width:0}
+.calfilter { position: relative; margin-top: 18px; }
+.calfilter label {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  margin: 0;
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  pointer-events: none;
+}
+.calfilter select {
+  display: block;
+  appearance: none;
+  width: 100%;
+  min-width: 0;
+  min-height: 58px;
+  padding: 27px 42px 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 11px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.calfilter::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 17px;
+  width: 7px;
+  height: 7px;
+  border: solid var(--green);
+  border-width: 0 2px 2px 0;
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+.calfilter select:hover { border-color: var(--green); }
+.calfilter select:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+@media (forced-colors: active) {
+  .calfilter select { appearance: auto; }
+  .calfilter::after { content: none; }
+}
