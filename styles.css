@@ -92,9 +92,9 @@ header.app-header{max-width:1060px;height:auto;margin:0 auto;padding:16px 30px;d
 .favorite-star[aria-pressed="true"]{background:#fff4d6;color:#795b10}
 .respicon[aria-pressed="true"]{outline:2px solid #416b4e;outline-offset:3px}
 .responsibility-favorites{margin-top:22px;padding:20px}
-.responsibility-favorites h3{margin:0 0 16px}.responsibility-favorites h4{margin:18px 0 10px;color:#416b4e}
-.favorite-values{margin:0}.favorite-values dt{font-size:12px;color:#7b8179;margin-top:12px}
-.favorite-values dd{margin:4px 0 14px;white-space:pre-wrap;overflow-wrap:anywhere}
+.responsibility-favorites h4{margin:18px 0 10px;color:#416b4e;font-size:16px;font-weight:700}.responsibility-favorites h4:first-child,.responsibility-favorites .respintro:first-child{margin-top:0}
+.favorite-values{margin:0}.favorite-values dt{font-size:14px;font-style:italic;color:#7b8179;margin-top:12px}
+.favorite-values dd{font-size:13px;font-weight:400;margin:4px 0 14px;white-space:pre-wrap;overflow-wrap:anywhere}
 
 .calfilter { position: relative; margin-top: 18px; }
 .calfilter label {

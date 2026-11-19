@@ -12,7 +12,6 @@ favoritePanel.setAttribute('aria-live','polite');el('showcase').after(favoritePa
 function renderFavorites(){
 favoritePanel.replaceChildren();const r=list.find(r=>r.id===selectedResponsibility);
 favoritePanel.hidden=!r;if(!r)return;
-favoritePanel.append(node('h3','',r.name+' — Favoritos'));
 let count=0;(r.forms||[]).forEach(f=>{const fields=(f.fields||[]).filter(field=>field.favorite);if(!fields.length)return;
 favoritePanel.append(node('h4','',f.title));const values=node('dl','favorite-values');
 fields.forEach(field=>{count++;let value=field.value;
